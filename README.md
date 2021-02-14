@@ -35,37 +35,37 @@ These months were selected because the weather is nice, so bike riding is one of
 
 ## Data Cleaning
 
-I collected the data from [Citi Bike Data](https://www.citibikenyc.com/system-data).  I used Citi Bike trip history data from August, September and October of 2019 and August, September, and October of 2020. The files were very large and included trip and rider data from every station for the entire month. I used `pandas` in a jupyter notebook to clean the data. To clean it, I used the `concat` function to combine all the date into one `dataframe`. 
+I collected the data from [Citi Bike Data](https://www.citibikenyc.com/system-data).  I used Citi Bike trip history csv files from August, September and October of 2019 and August, September, and October of 2020. The files are very large and include trip and rider data from every station trip for the entire month. I used `pandas` in a jupyter notebook to clean the data. I used the `concat` function to combine all the csv files into one `dataframe`. 
 
 ![concat](Images/concat.JPG)
 
-Then I separated out year and month from the start date column. This helped me clearly visualize the date in my tableau story. 
+Then I separated the ‘year’ and ‘month’ information from the ‘start date’ column. This helped clearly visualize the date in my tableau story. 
 
 ![clean year](Images/clean_year.JPG)
 
 ![clean month](Images/clean_month.JPG)
 
-Rider gender was represented by number values in the original data set so I assigned ‘male’ and female’ values in place of the numbers to be more meaningful. 
+Rider gender was represented by numeric values in the original data set so I assigned ‘male’ and ‘female’ values in place of the numbers to be more meaningful. 
 
 ![gender](Images/gender_clean.JPG)
 
-To display age in my visualizations, I calculated the rider age by subtracting the birth year given in the data by the trip year. I created a new column for rider age.
+To display age in my visualizations, I calculated the rider age by subtracting the riders ‘birth year’ by the ‘Trip Year’. I created a new column for ‘Rider Age’.
 
 ![age](Images/clean_age.JPG)
 
-I included the ‘unknown’ genders and outliers for ride age in my data sets but I filtered them out of the final visualizations for clarity. 
+I included the ‘unknown’ genders and outlying rider ages in my data sets, but I filtered them out of the final visualizations for clarity. 
 
 ## Data Aggregation
 
 The date from citibike was exceptionally large and was too big to use in Tableau in its original form. I created different aggregations of the data sets to make smaller data frames that would be ok to use in Tableau Public. The smaller data frames also made visualizations easier to display. 
 
-To create the total citibike trips per year, I used the `.groupby` function to group the data by Trip Year and Trip month and count the total trips. 
+To create the total citibike trips per year, I used the `.groupby` function to group the data by ‘Trip Year’ and ‘Trip month’ and count the total trips. 
 
 ` month_df = clean_df3.groupby(['Trip Year','Trip Month']).count() `
 
 ![Total Data](Images/total_data.JPG)
 
-To create the user data frame, I used the `.groupby` function and grouped the data by Trip Year, Trip Month, Rider Gender, Rider Age, and User Type. I added ` .count() ` to calculate the sum of each group. 
+To create the user data frame, I used the `.groupby` function and grouped the data by ‘Trip Year’, ‘Trip Month’, ‘Rider Gender’, ‘Rider Age’, and ‘User Type’. I added ` .count() ` to calculate the sum of each group. 
 
 ` user_df1 = user_df.groupby(["Trip Year", "Trip Month", 'Rider Gender', 'Rider Age', 'User Type']).count() `
 
@@ -73,24 +73,24 @@ To create the user data frame, I used the `.groupby` function and grouped the da
 
 ## Visualizations 
 
-To create visualizations in Tableau, I imported my data sets and joined them on common such as station name and longitude and latitude. 
+To create visualizations in Tableau, I imported my data sets and joined them on common fields such as ‘station name’ and ‘longitude’ and ‘latitude’. 
 
-I used common filters in my visualizations such as year, gender, and age. The main purpose of my story was to compare ridership and trip location from 2019 and 2020. I used a filter for Trip Year to create the same charts for each year. 
+I used year, gender, and age as filters in my visualizations. The main purpose of my story was to compare ridership and stations data from 2019 and 2020. I used a filter for ‘Trip Year’ to create duplicate charts for each year. 
 
 ![year filter](Images/year_filter.JPG)
 
-As part of the story telling process, I played with different versions of visualizations displaying the same data to see which more impactful and clearer. Below you can see two versions of Ridership by age and gender. The Bar chart has more specific data displayed clearly, but the overall look of the chart is overwhelming. 
+As part of the story telling process, I played with different versions of the visualizations displaying the same data to see which version was more impactful and clear. Below you can see two versions of ‘Ridership by Age and Gender’. The bar chart has more specific data displayed clearly, but the overall look of the chart is overwhelming. 
 ![bar chart age](Images/rider_age1.JPG)
 
 The line chart shows less details but is clear and clean as a visualization.
 
 ![line chart age](Images/rider_age2.JPG)
 
-For the map visualizations, I used the Longitude as the column value and the latitude as the row value. I then plotted the points as station totals. 
+For the map visualizations, I used ‘Longitude’ as the column value and ‘Latitude’ as the row value. I then plotted the points as ‘sum’ of station total trips. 
 
 ![long/lat](Images/long_lat.JPG)
 
-I used color to show the value of the map points. I also added specific tool tips to display all relevant data points associated to station locations. 
+I used color to show the value of the map points- blue representing less trips and red representing more trips. I also added specific tool tips to display all relevant data points associated to station locations. 
 
 ![color map](Images/color_map.JPG)
 
