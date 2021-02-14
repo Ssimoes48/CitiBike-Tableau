@@ -2,7 +2,7 @@
 
 ![citi-bike](Images/citi-bike-station-bikes.jpg)
 
-Link to [citibike Analysis](https://public.tableau.com/profile/sara7063#!/vizhome/CitiBike_Analysis_16131005084360/citibikeAnalysis)
+Link to [citibike Analysis](https://public.tableau.com/profile/sara7063#!/vizhome/CitiBike_Analysis_16131005084360/citibikeNYCAnalysis?publish=yes)
 
 ## Table of contents
 * [Technologies](#technologies)
