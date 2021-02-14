@@ -12,7 +12,7 @@ Tableau - Citi Bike Analytics
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
-* [Status](#status)
+* [Tableau Story](#tableau-story)
 * [Resources](#resources)
 * [Contact](#contact)
 
@@ -31,7 +31,27 @@ Tableau - Citi Bike Analytics
 
 ## Features
 
-## Status
+## Tableau Story
+
+![intro](Images/intro.JPG)
+
+![rider age](Images/rider_age.JPG)
+
+![rider type](Images/rider_subscription.JPG)
+
+![start stations](Images/start_station_trips.JPG)
+
+![top 10 start](Images/top_10_start_bub.JPG)
+
+![top 10 start map](Images/top_10_start_map.JPG)
+
+![end stations](Images/end_station_trip.JPG)
+
+![top 10 end](Images/top_10_end_bub.JPG)
+
+![top 10 end map](Images/top_10_end_map.JPG)
+
+![conclusion](Images/conclusion.JPG)
 
 ## Resources
 
