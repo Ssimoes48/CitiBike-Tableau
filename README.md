@@ -4,6 +4,8 @@ Tableau - Citi Bike Analytics
 
 ![citi-bike](Images/citi-bike-station-bikes.jpg)
 
+[citibike Analysis](https://public.tableau.com/profile/sara7063#!/vizhome/CitiBike_Analysis_16131005084360/citibikeAnalysis)
+
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -20,9 +22,8 @@ Tableau - Citi Bike Analytics
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* [Tableau](https://www.tableau.com/) 
+* Pandas
 
 ## Setup
 
