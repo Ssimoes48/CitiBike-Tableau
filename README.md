@@ -2,7 +2,7 @@
 
 ![citi-bike](Images/citi-bike-station-bikes.jpg)
 
-Link to [citibike Analysis](https://public.tableau.com/profile/sara7063#!/vizhome/CitiBike_Analysis_16131005084360/citibikeNYCAnalysis?publish=yes)
+Link to [citibike Analysis](https://public.tableau.com/profile/sara7063#!/vizhome/CitiBike_Analysis_16131005084360/citibikeNYCAnalysis)
 
 ## Table of contents
 * [Technologies](#technologies)
@@ -21,7 +21,7 @@ Link to [citibike Analysis](https://public.tableau.com/profile/sara7063#!/vizhom
 * Pandas
 
 ## Objective
-citibike Rider and Station Analysis: 2019 vs 2020 
+citibike NYC Rider and Station Analysis: 2019 vs 2020 
 
 citibike Ridership: Pre- COVID-19 vs. During-COVID-19 
   
@@ -110,7 +110,7 @@ After reviewing the visualizations, I concluded the following:
 
 ## Tableau Story
 
-Below is the final Tableau Story. You can also view it on the Tableau Public site- [citibike Analysis](https://public.tableau.com/profile/sara7063#!/vizhome/CitiBike_Analysis_16131005084360/citibikeAnalysis)
+Below is the final Tableau Story. You can also view it on the Tableau Public site- [citibike Analysis](https://public.tableau.com/profile/sara7063#!/vizhome/CitiBike_Analysis_16131005084360/citibikeNYCAnalysis)
 
 
 ![intro](Images/intro.JPG)
