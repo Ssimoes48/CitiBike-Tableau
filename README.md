@@ -51,7 +51,7 @@ Tableau - Citi Bike Analytics
 
 ![top 10 end map](Images/top_10_end_map.JPG)
 
-![conclusion](Images/conclusion.JPG)
+![conclusion](Images/conculsion.JPG)
 
 ## Resources
 
