@@ -17,6 +17,7 @@ Link to [citibike Analysis](https://public.tableau.com/profile/sara7063#!/vizhom
 
 ## Technologies
 * [Tableau](https://www.tableau.com/) 
+* Jupyter Notebook
 * Pandas
 
 ## Objective
@@ -46,11 +47,13 @@ Then I separated out year and month from the start date column. This helped me c
 
 Rider gender was represented by number values in the original data set so I assigned ‘male’ and female’ values in place of the numbers to be more meaningful. 
 
-![gender](Image/gender_clean.JPG)
+![gender](Images/gender_clean.JPG)
 
 To display age in my visualizations, I calculated the rider age by subtracting the birth year given in the data by the trip year. I created a new column for rider age.
 
-![age](Image/clean_age.JPG)
+![age](Images/clean_age.JPG)
+
+I included the ‘unknown’ genders and outliers for ride age in my data sets but I filtered them out of the final visualizations for clarity. 
 
 ## Data Aggregation
 
@@ -70,7 +73,27 @@ To create the user data frame, I used the `.groupby` function and grouped the da
 
 ## Visualizations 
 
+To create visualizations in Tableau, I imported my data sets and joined them on common such as station name and longitude and latitude. 
 
+I used common filters in my visualizations such as year, gender, and age. The main purpose of my story was to compare ridership and trip location from 2019 and 2020. I used a filter for Trip Year to create the same charts for each year. 
+
+![year filter](Images/year_filter.JPG)
+
+For my map visualizations, I used the Longitude as the column value and the latitude as the row value. I then plotted the points as station totals. 
+
+![long/lat](Images/long_lat.JPG)
+
+I used color to show the value of the map points. I also added specific tool tips to display all relevant data points associated to station locations. 
+
+![color map](Images/color_map.JPG)
+
+To add the zip code layer, I used Map Layers. 
+
+![map layers](Images/map_layers.JPG)
+
+I used the ‘create set’ calculation when creating my visualizations showing the Top 10 trip stations. 
+
+![create set](Images/create_set.JPG)
 
 ## Analysis
 
