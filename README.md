@@ -79,7 +79,14 @@ I used common filters in my visualizations such as year, gender, and age. The ma
 
 ![year filter](Images/year_filter.JPG)
 
-For my map visualizations, I used the Longitude as the column value and the latitude as the row value. I then plotted the points as station totals. 
+As part of the story telling process, I played with different versions of visualizations displaying the same data to see which more impactful and clearer. Below you can see two versions of Ridership by age and gender. The Bar chart has more specific data displayed clearly, but the overall look of the chart is overwhelming. 
+![bar chart age](Images/rider_age1.JPG)
+
+The line chart shows less details but is clear and clean as a visualization.
+
+![line chart age](Images/rider_age2.JPG)
+
+For the map visualizations, I used the Longitude as the column value and the latitude as the row value. I then plotted the points as station totals. 
 
 ![long/lat](Images/long_lat.JPG)
 
