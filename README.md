@@ -76,29 +76,7 @@ To create the user data frame, I used the `.groupby` function and grouped the da
 
 After reviewing the visualizations, I concluded the following:
 
-citibike Ridership: Pre- COVID-19 vs. During-COVID-19 
-
-The visualizations show that ridership and total trips have increased from 2019 to 2020. This could be because people feel unsafe taking public transit. Commuters may be choosing citibike travel instead. 
-  
-*Has the customer base changed? 
-
-The customer base has increased by 2% from 2019 to 2020 however the overall total of subscribers has decreased 10% from 2019 to 2020. This is most likely due to the fewer people commuting into NYC and are now working from home. 
-
-There is a much higher rider percentage of men to women. of age although there is still ridership through the age of 75. After 65 ridership begins to reduce significantly. 
-
-In the month of October, citibike could offer a small fleet of pink bikes to support breast cancer awareness which could also entice more female riders. 
-  
-*Have the top station locations changed due to WFH lifestyle? 
-
-The most popular stations are near major transportation hubs. The 2 most frequent start and stop stations are outside of Grand Central and Penn Station. Ridership levels at both stations have reduced by almost half from 2019 to 2020. More people working from home has likely caused this drop in ridership levels.
-
-Other locations have become more popular in residential areas like the lower east side and Flat Iron District. Increasing bike availability and stations in these areas would be beneficial. Also, increasing bike availability near hospitals and vaccine sites for essential workings to commute safely would increase ridership.  
-
-*Have the trip totals gone up or down due to COVID-19 pandemic?
-Total trips have increased approximately 3% from 2019 to 2020. This could be due to the 30% increase in number of bike stations therefore making the bikes more accessible. It could also be a result of more people using bikes for commuting instead of public transit due to the Pandemic.
-
-Total trips have increased about 3% from 2019 to 2020. This is slightly skewed because the number of stations has also increased about 30% making the bikes more accessible.
-
+![conclusion](Images/conclusion.JPG)
 
 ## Tableau Story
 
